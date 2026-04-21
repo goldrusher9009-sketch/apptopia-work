@@ -14,6 +14,7 @@ Built by Hash + Apptopia. We ship daily.
 | OpenRouter | ✅ Active | AI/LLM access |
 | Twilio | ✅ Active | SMS/voice |
 | GoDaddy | ✅ Active | Domain management |
+| Supabase | ✅ Active | Database/Backend |
 
 ## Project Structure
 
