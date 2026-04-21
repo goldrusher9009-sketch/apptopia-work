@@ -1,0 +1,7 @@
+.env.local
+secrets/
+*.key
+*.pem
+node_modules/
+dist/
+build/
