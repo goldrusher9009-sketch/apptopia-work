@@ -24,3 +24,10 @@
 ---
 
 *Last updated: 2026-04-21*
+
+## Cost Monitoring
+
+- [ ] Check daily spending
+- [ ] Alert if approaching budget
+- [ ] Switch to free models if emergency threshold hit
+
