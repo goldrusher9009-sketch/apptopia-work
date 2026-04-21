@@ -1,0 +1,82 @@
+{
+  "version": "2026-04-21",
+  "strategy": "cost-optimized",
+  "default": "openrouter/moonshotai/kimi-k2.6",
+  
+  "tiers": {
+    "free": {
+      "models": [
+        "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "openrouter/nousresearch/hermes-3-llama-3.1-405b:free"
+      ],
+      "max_tokens": 4000,
+      "use_for": [
+        "simple_qa",
+        "greetings",
+        "status_checks",
+        "short_responses",
+        "heartbeat"
+      ]
+    },
+    
+    "budget": {
+      "models": [
+        "openrouter/nousresearch/hermes-3-llama-3.1-70b",
+        "openrouter/meta-llama/llama-3.1-70b-instruct",
+        "openrouter/qwen/qwen-2.5-32b-instruct"
+      ],
+      "max_tokens": 8000,
+      "use_for": [
+        "coding_simple",
+        "file_operations",
+        "git_commands",
+        "documentation",
+        "research",
+        "data_processing"
+      ]
+    },
+    
+    "standard": {
+      "models": [
+        "openrouter/moonshotai/kimi-k2.6",
+        "openrouter/minimax/minimax-m2.7"
+      ],
+      "max_tokens": 16000,
+      "use_for": [
+        "complex_coding",
+        "architecture_design",
+        "debugging",
+        "code_review",
+        "system_design"
+      ]
+    },
+    
+    "premium": {
+      "models": [
+        "openrouter/anthropic/claude-3.7-sonnet",
+        "openrouter/openai/gpt-4o"
+      ],
+      "max_tokens": 32000,
+      "use_for": [
+        "critical_decisions",
+        "security_review",
+        "complex_reasoning",
+        "creative_tasks",
+        "emergency_fixes"
+      ]
+    }
+  },
+  
+  "routing_rules": {
+    "auto_detect": true,
+    "fallback_enabled": true,
+    "cost_tracking": true,
+    "max_cost_per_request": 0.10
+  },
+  
+  "cost_limits": {
+    "daily_budget": 10.00,
+    "alert_threshold": 5.00,
+    "emergency_threshold": 8.00
+  }
+}
