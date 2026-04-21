@@ -82,6 +82,24 @@
         "description": "Autonomous GPT agent",
         "priority": "medium",
         "searchTerms": ["auto-gpt", "autonomous", "agent", "goal-oriented"]
+      },
+      {
+        "name": "paperclip",
+        "description": "AI agent orchestration platform",
+        "priority": "high",
+        "searchTerms": ["paperclip", "orchestration", "multi-agent", "skills-management"]
+      },
+      {
+        "name": "opus-4-7",
+        "description": "Claude Opus 4.7 patterns and prompts",
+        "priority": "high",
+        "searchTerms": ["opus-4.7", "claude-opus", "quality-enforcement", "prompt-studio"]
+      },
+      {
+        "name": "claude-code",
+        "description": "Anthropic's agentic coding tool",
+        "priority": "high",
+        "searchTerms": ["claude-code", "agentic-coding", "terminal"]
       }
     ]
   }
