@@ -1,0 +1,88 @@
+{
+  "version": "2026-04-21",
+  "lastUpdated": "2026-04-21T03:59:00Z",
+  "skills": {
+    "local": {
+      "healthcheck": {
+        "status": "ready",
+        "source": "openclaw-bundled",
+        "capabilities": ["security-audit", "hardening", "risk-assessment"],
+        "lastUsed": null
+      },
+      "taskflow": {
+        "status": "ready",
+        "source": "openclaw-bundled",
+        "capabilities": ["workflow-orchestration", "task-management", "state-tracking"],
+        "lastUsed": null
+      },
+      "skill-creator": {
+        "status": "ready",
+        "source": "openclaw-bundled",
+        "capabilities": ["skill-authoring", "skill-audit", "skill-improvement"],
+        "lastUsed": null
+      }
+    },
+    "external": {
+      "anthropic-browser-use": {
+        "status": "cloned",
+        "source": "github:anthropics/anthropic-quickstarts",
+        "path": "anthropic-quickstarts/browser-use-demo",
+        "capabilities": ["web-automation", "browser-control", "navigation"],
+        "lastUsed": null,
+        "integrationStatus": "pending"
+      },
+      "anthropic-computer-use": {
+        "status": "cloned",
+        "source": "github:anthropics/anthropic-quickstarts",
+        "path": "anthropic-quickstarts/computer-use-demo",
+        "capabilities": ["gui-automation", "visual-perception", "mouse-keyboard"],
+        "lastUsed": null,
+        "integrationStatus": "pending"
+      },
+      "anthropic-autonomous-coding": {
+        "status": "cloned",
+        "source": "github:anthropics/anthropic-quickstarts",
+        "path": "anthropic-quickstarts/autonomous-coding",
+        "capabilities": ["self-directed-coding", "iterative-improvement", "error-recovery"],
+        "lastUsed": null,
+        "integrationStatus": "pending"
+      },
+      "langchain-core": {
+        "status": "cloned",
+        "source": "github:langchain-ai/langchain",
+        "path": "langchain",
+        "capabilities": ["llm-chaining", "rag", "tool-use", "memory"],
+        "lastUsed": null,
+        "integrationStatus": "pending"
+      },
+      "microsoft-promptflow": {
+        "status": "cloned",
+        "source": "github:microsoft/promptflow",
+        "path": "promptflow",
+        "capabilities": ["prompt-engineering", "flow-orchestration", "evaluation"],
+        "lastUsed": null,
+        "integrationStatus": "pending"
+      }
+    },
+    "wanted": [
+      {
+        "name": "paperclip",
+        "description": "Self-improving agent with tool use",
+        "priority": "high",
+        "searchTerms": ["paperclip", "self-improving", "agent", "tool-use"]
+      },
+      {
+        "name": "hermes",
+        "description": "Hermes agent framework",
+        "priority": "high",
+        "searchTerms": ["hermes", "agent", "framework", "autonomous"]
+      },
+      {
+        "name": "auto-gpt",
+        "description": "Autonomous GPT agent",
+        "priority": "medium",
+        "searchTerms": ["auto-gpt", "autonomous", "agent", "goal-oriented"]
+      }
+    ]
+  }
+}
